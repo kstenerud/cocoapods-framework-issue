@@ -21,6 +21,5 @@
   "source_files": "MyFramework/{**/,}*.{m,h,mm,c,swift}",
   "public_header_files": "MyFramework/MyFramework.h",
   "pod_target_xcconfig": {
-    "ENABLE_MODULE_VERIFIER": "NO"
   }
 }
