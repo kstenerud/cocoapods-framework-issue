@@ -1,0 +1,26 @@
+{
+  "name": "MyFramework",
+  "version": "1.0.0",
+  "summary": "A demonstration of how frameworks are broken for cocoapods.",
+  "homepage": "https://github.com/kstenerud/cocoapods-framework-issue",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Me": "me@mydomainsomewhere.com"
+  },
+  "source": {
+    "git": "https://github.com/kstenerud/cocoapods-framework-issue.git",
+    "tag": "v1.0.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "requires_arc": true,
+  "source_files": "MyFramework/{**/,}*.{m,h,mm,c,swift}",
+  "public_header_files": "MyFramework/MyFramework.h",
+  "pod_target_xcconfig": {
+    "ENABLE_MODULE_VERIFIER": "NO"
+  }
+}

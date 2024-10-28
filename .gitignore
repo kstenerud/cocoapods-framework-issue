@@ -1,0 +1,14 @@
+*.hmap
+*.ipa
+*.log
+*.xcresult
+*.xcuserstate
+.build
+.DS_Store
+build/
+DerivedData
+Gemfile.lock
+logs/
+Podfile.lock
+Pods
+xcuserdata
